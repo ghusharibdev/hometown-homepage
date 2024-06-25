@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: "Spinnaker", sans-serif;
+}
+
+#hero{
+    background-image: url("https://images.unsplash.com/photo-1601969695489-f10a1da1756a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFob3JlfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position:center;
+    padding: 70px;
+}
+
+#title{
+    width: 300px;
+    background-color:#023047;
+    margin: 10px auto;
+    text-align: center;
+    color: #ffb703;
+    text-shadow: 0 0 4px black;
+    padding: 7px 15px 7px 15px;
+    border-radius: 7px;
+}
+
+#description{
+    width: 400px;
+    background-color:#219ebc;
+    margin: 10px auto;
+    text-align: center;
+    color: #023047;
+    padding: 7px 15px 7px 15px;
+    border-radius: 7px;
+}
+
+#activities{
+    text-align: center;
+    background-image: linear-gradient(#bde0fe, #ffafcc);
+    padding:20px;
+}
+
+#activities-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.activity-img{
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.activity-desc{
+    width: 300px;   
+}
+.activity-title{
+    width: 300px;
+}
